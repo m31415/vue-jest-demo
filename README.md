@@ -29,8 +29,6 @@ This project reproduces these errors in a minimal setup and systematically tests
 
 ## 🚀 Vue 3.3+ Improvements
 
-**IMPORTANT:** Vue 3.3+ significantly improved type resolution! See [VUE_3.3_IMPROVEMENTS.md](./VUE_3.3_IMPROVEMENTS.md) for details.
-
 **Key Discovery:** Conditional and mapped types **work for individual props**, just not for the entire props object!
 
 ```typescript
