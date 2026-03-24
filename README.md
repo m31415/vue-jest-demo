@@ -146,11 +146,10 @@ module.exports = vue3Jest;
 **`jest.config.js`:**
 ```javascript
 module.exports = {
-  preset: 'ts-jest',
   testEnvironment: 'jsdom',
   transform: {
     '^.+\\.vue$': '<rootDir>/vue-jest-transformer.js',  // Custom transformer
-    '^.+\\.tsx?$': 'ts-jest',
+    '^.+\\.[jt]sx?$': 'babel-jest',  // Use Babel for TypeScript
   },
   moduleFileExtensions: ['js', 'ts', 'json', 'vue'],
 };
