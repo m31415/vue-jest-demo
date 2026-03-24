@@ -185,12 +185,6 @@ npm run test:watch
 
 The failing tests are **intentional** - they demonstrate the compiler's limitations.
 
-## 📊 Complete Boundary Matrix
-
-See [BOUNDARY_MATRIX.md](./BOUNDARY_MATRIX.md) for a visual representation of all combinations tested.
-
-See [TYPE_RESOLUTION_BOUNDARIES.md](./TYPE_RESOLUTION_BOUNDARIES.md) for detailed analysis with test case descriptions.
-
 ### Quick Reference
 
 **If you see this error:**
